@@ -1,13 +1,3 @@
 {
-	"extends": "@arcmantle/tsconfig",
-	"compilerOptions": {
-		"rootDir": ".",
-		"baseUrl": ".",
-		"outDir": "../dist",
-		"noEmit": false,
-		"emitDeclarationOnly": true,
-		"types": [
-			"vite/client",
-		]
-	},
+	"extends": "@arcmantle/tsconfig/build"
 }
